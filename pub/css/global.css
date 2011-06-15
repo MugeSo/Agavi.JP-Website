@@ -55,6 +55,7 @@ div#header {
 	height: 50px;
 	margin: 20px auto 0;
     -moz-border-radius-topleft: 5px; -moz-border-radius-topright: 5px; -webkit-border-top-radius: 5px;
+	background: -webkit-gradient(linear, left bottom, left top, color-stop(0, #E2E2E2), color-stop(100%, #FFFFFF));
 	background: -moz-linear-gradient(center bottom , #E2E2E2 0pt, #FFFFFF 100%) repeat scroll 0 0 transparent;
 	font-size: 35px;
 }
