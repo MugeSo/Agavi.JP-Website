@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ae:configurations xmlns="http://agavi.org/agavi/config/parts/autoload/1.0" xmlns:ae="http://agavi.org/agavi/config/global/envelope/1.0" parent="%core.system_config_dir%/autoload.xml">
+	<ae:configuration>
+		
+		<autoload name="AgaviJpWebBaseAction">%core.lib_dir%/action/AgaviJpWebBaseAction.class.php</autoload>
+		<autoload name="AgaviJpWebBaseModel">%core.lib_dir%/model/AgaviJpWebBaseModel.class.php</autoload>
+		<autoload name="AgaviJpWebBaseView">%core.lib_dir%/view/AgaviJpWebBaseView.class.php</autoload>
+		
+		<autoload name="AgaviSmartyRenderer">%core.lib_dir%/renderer/AgaviSmartyRenderer.class.php</autoload>
+		<autoload name="Smarty">%core.vendor_dir%/Smarty/libs/Smarty.class.php</autoload>
+	</ae:configuration>
+</ae:configurations>

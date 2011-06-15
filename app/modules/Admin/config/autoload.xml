@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ae:configurations xmlns="http://agavi.org/agavi/config/parts/autoload/1.0" xmlns:ae="http://agavi.org/agavi/config/global/envelope/1.0">
+	<ae:configuration>
+		
+		<autoload name="AgaviJpWebAdminBaseAction">%core.module_dir%/Admin/lib/action/AgaviJpWebAdminBaseAction.class.php</autoload>
+		<autoload name="AgaviJpWebAdminBaseModel">%core.module_dir%/Admin/lib/model/AgaviJpWebAdminBaseModel.class.php</autoload>
+		<autoload name="AgaviJpWebAdminBaseView">%core.module_dir%/Admin/lib/view/AgaviJpWebAdminBaseView.class.php</autoload>
+		
+	</ae:configuration>
+</ae:configurations>
