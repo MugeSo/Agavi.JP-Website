@@ -37,7 +37,8 @@
 		</system_actions>
 
 		<settings>
-			<setting name="app_name">Agavi.jp Website</setting>
+			<setting name="app_name">Agavi日本語情報</setting>
+			<setting name="copyright">2011 agavi.jp</setting>
 
 			<setting name="available">true</setting>
 			<setting name="debug">false</setting>

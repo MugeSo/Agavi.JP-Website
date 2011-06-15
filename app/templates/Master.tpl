@@ -19,7 +19,7 @@
 		{$inner}
     </div>
     <div id="footer">
-		<p id="footer-copyright">&copy;2011 agavi.jp.</p>
+		<p id="footer-copyright">&copy;{AgaviConfig::get('core.copyright')}</p>
 	</div>
 	</body>
 </html>
