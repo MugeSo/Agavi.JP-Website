@@ -80,7 +80,7 @@
 			
 			<!-- use a different exception template in production envs -->
 			<!-- others are defined in settings.xml -->
-			<output_type name="html" exception_template="%core.template_dir%/exceptions/web-html.tpl" />
+			<output_type name="html" exception_template="%core.template_dir%/exceptions/web-html.php" />
 			
 		</output_types>
 		
