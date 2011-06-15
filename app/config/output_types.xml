@@ -20,7 +20,6 @@
 						<ae:parameter name="default_extension">.tpl</ae:parameter>
 						<!-- this changes the name of the variable with all template attributes from the default $template to $t -->
 						<ae:parameter name="var_name">t</ae:parameter>
-						<ae:parameter name="
 					</renderer>
 				</renderers>
 				
