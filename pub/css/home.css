@@ -1,6 +1,6 @@
 dl#latest_release {
 	width: 80%;
-	-moz-border-radius: 8px; -web-kit-border-radius: 8px;
+	-moz-border-radius: 8px; -webkit-border-radius: 8px;
 	margin: 10px auto;
 	background-color: #353535;
 	background-image: url(/images/latest_release_bg.png);

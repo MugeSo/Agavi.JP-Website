@@ -54,7 +54,7 @@ div#header {
 	width: 900px;
 	height: 50px;
 	margin: 20px auto 0;
-    -moz-border-radius-topleft: 5px; -moz-border-radius-topright: 5px; -webkit-border-top-radius: 5px;
+    -moz-border-radius-topleft: 5px; -moz-border-radius-topright: 5px; -webkit-border-top-left-radius: 5px; -webkit-border-top-right-radius: 5px;
 	background: -webkit-gradient(linear, left bottom, left top, color-stop(0, #E2E2E2), color-stop(100%, #FFFFFF));
 	background: -moz-linear-gradient(center bottom , #E2E2E2 0pt, #FFFFFF 100%) repeat scroll 0 0 transparent;
 	font-size: 35px;
@@ -68,5 +68,5 @@ div#content {
 	width: 900px;
 	background-color: #ffffff;
 	margin: 0 auto;
-	-moz-border-radius-bottomleft: 5px; -moz-border-radius-bottomright: 5px; -webkit-border-bottom-radius: 5px;
+	-moz-border-radius-bottomleft: 5px; -moz-border-radius-bottomright: 5px; -webkit-border-bottom-left-radius: 5px; -webkit-border-bottom-right-radius: 5px;
 }
