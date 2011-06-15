@@ -50,7 +50,8 @@ body {
 p {
 	line-height: 1.3em;
 }
-div#header {
+
+#header {
 	width: 900px;
 	height: 50px;
 	margin: 20px auto 0;
@@ -60,13 +61,20 @@ div#header {
 	font-size: 35px;
 }
 
-div#sitename {
+#sitename {
 	padding-top: 10px;
 	padding-left: 10px;
 }
-div#content {
+
+#content {
 	width: 900px;
 	background-color: #ffffff;
 	margin: 0 auto;
 	-moz-border-radius-bottomleft: 5px; -moz-border-radius-bottomright: 5px; -webkit-border-bottom-left-radius: 5px; -webkit-border-bottom-right-radius: 5px;
+}
+
+#footer {
+	width: 900px;
+	margin: 5px auto;
+	color: #ffffff;
 }

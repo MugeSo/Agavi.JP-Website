@@ -19,6 +19,7 @@
 		{$inner}
     </div>
     <div id="footer">
+		<p id="footer-copyright">&copy;2011 agavi.jp.</p>
 	</div>
 	</body>
 </html>
