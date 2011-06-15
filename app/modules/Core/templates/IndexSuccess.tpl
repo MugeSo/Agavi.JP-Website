@@ -3,7 +3,7 @@
 	<dt>安定版</dt>
 	<dd>1.0.4</dd>
 	<dt>開発版</dt>
-	<dd>1.0.5RC</dd>
+	<dd>1.0.5RC1</dd>
 </dl>
 <div id="main_introduction">
 <p>このサイトはPHPアプリケーションフレームワークAgaviの日本語情報サイトです。</p>
