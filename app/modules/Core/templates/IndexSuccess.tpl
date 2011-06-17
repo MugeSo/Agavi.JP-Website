@@ -1,9 +1,9 @@
 <h1><img src="images/main_title.png" width="900" height="229" alt="Agavi日本語情報サイト" /></h1>
 <dl id="latest_release">
 	<dt>安定版</dt>
-	<dd>1.0.4</dd>
+	<dd>1.0.5</dd>
 	<dt>開発版</dt>
-	<dd>1.0.5RC1</dd>
+	<dd>-</dd>
 </dl>
 <div id="main_introduction">
 <p>このサイトはPHPアプリケーションフレームワークAgaviの日本語情報サイトです。</p>
