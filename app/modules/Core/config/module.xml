@@ -6,14 +6,7 @@
 			<settings>
 				<setting name="title">Core Module</setting>
 				<setting name="version">1.0</setting>
-<!--
-				<setting name="authors">
-					<ae:parameter name="joe.cool@peanuts.com">Snoopy</ae:parameter>
-				</setting>
-				<setting name="homepage">http://www.agavi.org</setting>
-				<setting name="update_url" />
-				<setting name="description">An example module</setting>
--->
+				<setting name="pages_config">%core.config_dir%/pages.xml</setting>
 			</settings>
 		</module>
 		

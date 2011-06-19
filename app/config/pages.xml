@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ae:configurations xmlns="http://agavi.jp/agavi/config/parts/pages/1.0" xmlns:ae="http://agavi.org/agavi/config/global/envelope/1.0">
+	<ae:configuration>
+		<pages>
+			<page name="main" path="">
+				<file>%core.template_dir%/pages/main.tpl</file>
+				<stylesheet url="css/main.css" />
+			</page>
+			<!--
+			<page name="contact" path="contact" title="contact" />
+			<page name="quick-start" path="quick-start" layout="hatena-syntax-page" />
+			-->
+		</pages>
+	</ae:configuration>
+</ae:configurations>

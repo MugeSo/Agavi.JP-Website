@@ -6,5 +6,6 @@
 		<autoload name="AgaviJpWebCoreBaseModel">%core.module_dir%/Core/lib/model/AgaviJpWebCoreBaseModel.class.php</autoload>
 		<autoload name="AgaviJpWebCoreBaseView">%core.module_dir%/Core/lib/view/AgaviJpWebCoreBaseView.class.php</autoload>
 		
+		<autoload name="Core_PageConfigHandler">%core.module_dir%/Core/lib/config/PageConfigHandler.class.php</autoload>
 	</ae:configuration>
 </ae:configurations>

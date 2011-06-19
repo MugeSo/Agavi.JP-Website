@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ae:configurations xmlns="http://agavi.jp/agavi/config/parts/pages/1.0" xmlns:ae="http://agavi.org/agavi/config/global/envelope/1.0">
+	<ae:configuration>
+		<pages>
+			<page name="" file="%core.testing_dir%/fixtures/pages/main.tpl">
+				<response_attributes>
+					<ae:parameter name="stylesheets">
+						<ae:parameter>css/main.css</ae:parameter>
+					</ae:parameter>
+			    </response_attributes>
+			</page>
+			<page name="/other/" file="%core.testing_dir%/fixtures/pages/other.tpl" layout="simple" />
+			<page name="bbs/logs" file="%core.testing_dir%/fixtures/pages/bbs-logs.php"  renderer="php" />
+		</pages>
+	</ae:configuration>
+</ae:configurations>

@@ -1,0 +1,1 @@
+<p>{* this comment should removed *}other</p>

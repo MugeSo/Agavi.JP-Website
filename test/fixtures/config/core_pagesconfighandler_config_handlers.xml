@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ae:configurations xmlns:ae="http://agavi.org/agavi/config/global/envelope/1.0" xmlns="http://agavi.org/agavi/config/parts/config_handlers/1.0">
+	<ae:configuration>
+		<handlers>
+			<handler pattern="%core.testing_dir%/fixtures/config/pages.xml" class="Core_PageConfigHandler" />
+		</handlers>
+	</ae:configuration>
+</ae:configurations>

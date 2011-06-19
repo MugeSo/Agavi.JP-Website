@@ -8,6 +8,19 @@
 			<output_type name="html">
 				
 				<renderers default="smarty">
+					<renderer name="php" class="AgaviPhpRenderer">
+						<ae:parameter name="assigns">
+							<ae:parameter name="routing">ro</ae:parameter>
+							<ae:parameter name="request">rq</ae:parameter>
+							<ae:parameter name="controller">ct</ae:parameter>
+							<ae:parameter name="user">us</ae:parameter>
+							<ae:parameter name="translation_manager">tm</ae:parameter>
+							<ae:parameter name="request_data">rd</ae:parameter>
+						</ae:parameter>
+						<ae:parameter name="default_extension">.php</ae:parameter>
+						<!-- this changes the name of the variable with all template attributes from the default $template to $t -->
+						<ae:parameter name="var_name">t</ae:parameter>
+					</renderer>
 					<renderer name="smarty" class="AgaviSmartyRenderer">
 						<ae:parameter name="assigns">
 							<ae:parameter name="routing">ro</ae:parameter>
