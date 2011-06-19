@@ -3,8 +3,13 @@
 	<ae:configuration>
 		<routes>
 			<!-- default action for "/" -->
-			<route name="index" pattern="^/$" module="%actions.default_module%" action="%actions.default_action%" />
-			
+			<route name="pages" pattern="^(page_name:.*)$" module="Core" action="Page">
+				<callback class="Core_PageRoutingCallback" />
+				<defaults>
+					<default for="page_name">/</default>
+				</defaults>
+			</route>
+	
 		</routes>
 	</ae:configuration>
 </ae:configurations>

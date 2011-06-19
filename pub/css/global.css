@@ -39,8 +39,14 @@ blockquote:before, blockquote:after {
 	content: "";
 }
 
+code {
+        display: block;
+        white-space: pre;
+		font-family: monospace;
+}
+
 /*******************************************************************************
-do
+global styles
 ********************************************************************************/
 body {
 	background-image: url(/images/bg.png);
@@ -70,6 +76,7 @@ p {
 	width: 900px;
 	background-color: #ffffff;
 	margin: 0 auto;
+	padding-bottom: 0.2em;
 	-moz-border-radius-bottomleft: 5px; -moz-border-radius-bottomright: 5px; -webkit-border-bottom-left-radius: 5px; -webkit-border-bottom-right-radius: 5px;
 }
 
@@ -77,4 +84,40 @@ p {
 	width: 900px;
 	margin: 5px auto;
 	color: #ffffff;
+}
+
+.article {
+        margin: 2.5em 2em;
+        border: solid 2px #808080;
+        -moz-border-radius: 3px; -webkit-border-radius: 3px;
+        background-color: #e0e0e0;
+        padding: 0.5em;
+}
+
+.article h2 {
+        border: solid 2px #808080;
+        background-color: #ffffff;
+        display: inline-block;
+        padding: 0.5em;
+        font-size: 1.2em;
+        font-weight: bold;
+        -moz-border-radius: 5px; -webkit-border-radius: 5px;
+        position: relative;
+        top: -1.5em;
+        margin-bottom: -1.5em;
+}
+
+.article h3 {
+        margin-top: 0.8em;
+        margin-bottom: 0.3em;
+        padding-left: 0.5em;
+        font-size: 1.1em;
+        font-weight: bold;
+        border-left: solid 3px #808080;
+}
+
+.article code {
+		background-color: #ffffff;
+		margin: 0.3em;
+		padding: 0.5em;
 }
