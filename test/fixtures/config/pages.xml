@@ -8,6 +8,10 @@
 						<ae:parameter>css/main.css</ae:parameter>
 					</ae:parameter>
 			    </response_attributes>
+				<slot name="page" page="/other"/>
+				<slot name="action" module="Core" action="Page" output_type="html" method="read">
+					<ae:parameter name="page_name">/bbs/logs</ae:parameter>
+				</slot>
 			</page>
 			<page name="/other/" file="%core.testing_dir%/fixtures/pages/other.tpl" layout="simple" />
 			<page name="bbs/logs" file="%core.testing_dir%/fixtures/pages/bbs-logs.php"  renderer="php" />

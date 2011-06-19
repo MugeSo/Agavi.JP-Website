@@ -19,6 +19,30 @@ case '/':
 $this->filePath = '%core.testing_dir%/fixtures/pages/main.tpl';
 $this->layout = NULL;
 $this->renderer = NULL;
+$this->slots = array (
+  'page' => 
+  array (
+    'module' => 'Core',
+    'action' => 'Page',
+    'output_type' => NULL,
+    'request_method' => NULL,
+    'arguments' => 
+    array (
+      'page_name' => '/other',
+    ),
+  ),
+  'action' => 
+  array (
+    'module' => 'Core',
+    'action' => 'Page',
+    'output_type' => 'html',
+    'request_method' => 'read',
+    'arguments' => 
+    array (
+      'page_name' => '/bbs/logs',
+    ),
+  ),
+);
 $this->responseAttributes = array (
   'stylesheets' => 
   array (
@@ -30,12 +54,16 @@ case '/other':
 $this->filePath = '%core.testing_dir%/fixtures/pages/other.tpl';
 $this->layout = 'simple';
 $this->renderer = NULL;
+$this->slots = array (
+);
 $this->responseAttributes = NULL;
 break;
 case '/bbs/logs':
 $this->filePath = '%core.testing_dir%/fixtures/pages/bbs-logs.php';
 $this->layout = NULL;
 $this->renderer = 'php';
+$this->slots = array (
+);
 $this->responseAttributes = NULL;
 break;
 default:
@@ -46,6 +74,7 @@ return true;
 ?>
 EOT;
 		$compiled = str_replace('\\', '\\\\', AgaviToolkit::expandDirectives($compiled));
+		$compiled = str_replace("\r\n", "\n", $compiled);
 		$this->assertEquals($compiled, preg_replace('#^// Date: .*$#m', '// Date: 0000-00-00T00:00:00+0000',
 				file_get_contents(AgaviConfigCache::checkConfig(AgaviToolkit::expandDirectives('%core.testing_dir%/fixtures/config/pages.xml')))));
 	}

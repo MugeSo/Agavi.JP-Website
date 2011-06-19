@@ -6,6 +6,7 @@ class Core_PageReaderModel extends AgaviJpWebCoreBaseModel
 	protected $filePath;
 	protected $layout;
 	protected $renderer;
+	protected $slots;
 	protected $responseAttributes;
 
 	/**
@@ -58,6 +59,16 @@ class Core_PageReaderModel extends AgaviJpWebCoreBaseModel
 	public function getResponseAttributes()
 	{
 		return $this->responseAttributes;
+	}
+	
+	/**
+	 * スロットを取得
+	 * 
+	 * @return array
+	 */
+	public function getSlots()
+	{
+		return $this->slots;
 	}
 
 }
