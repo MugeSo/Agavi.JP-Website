@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ae:configurations xmlns:ae="http://agavi.org/agavi/config/global/envelope/1.0" xmlns="http://agavi.org/agavi/config/parts/caching/1.0">
+	
+	<ae:configuration>
+		
+		<caching enabled="true" lifetime="3 hours">
+			<groups>
+				<group>pear_channel_package_version</group>
+				<group source="request_data">server</group>
+				<group source="request_data">package</group>
+			</groups>
+			<action_attribute>version</action_attribute>
+			<view>Success</view>
+			<output_type name="html" />
+		</caching>
+		
+	</ae:configuration>
+	
+</ae:configurations>

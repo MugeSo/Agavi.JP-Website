@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ae:configurations xmlns="http://agavi.org/agavi/config/parts/autoload/1.0" xmlns:ae="http://agavi.org/agavi/config/global/envelope/1.0">
+	
+	<ae:configuration>
+		
+		<autoload name="AgaviJpWebPearBaseAction">%core.module_dir%/Pear/lib/action/AgaviJpWebPearBaseAction.class.php</autoload>
+		<autoload name="AgaviJpWebPearBaseModel">%core.module_dir%/Pear/lib/model/AgaviJpWebPearBaseModel.class.php</autoload>
+		<autoload name="AgaviJpWebPearBaseView">%core.module_dir%/Pear/lib/view/AgaviJpWebPearBaseView.class.php</autoload>
+		
+	</ae:configuration>
+	
+</ae:configurations>

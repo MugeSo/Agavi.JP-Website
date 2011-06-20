@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ae:configurations
+	xmlns="http://agavi.org/agavi/config/parts/validators/1.0"
+	xmlns:ae="http://agavi.org/agavi/config/global/envelope/1.0"
+	parent="%core.module_dir%/Pear/config/validators.xml"
+>
+	
+	<ae:configuration>
+		
+		<validators>
+			<validator name="package" class="regex">
+				<argument>package</argument>
+				<ae:parameter name="pattern">/^\w+$/</ae:parameter>
+			</validator>
+			<validator name="server" class="regex">
+				<argument>server</argument>
+				<ae:parameter name="pattern">/^[A-Z0-9][A-Z0-9_-]*(?:\.[A-Z0-9][A-Z0-9_-]*)+$/i</ae:parameter>
+			</validator>
+		</validators>
+		
+	</ae:configuration>
+	
+</ae:configurations>
