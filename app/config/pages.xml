@@ -8,6 +8,10 @@
 						<ae:parameter>css/main.css</ae:parameter>
 					</ae:parameter>
 			    </response_attributes>
+				<slot name="latest_version" module="Pear" action="PackageVersion">
+					<ae:parameter name="server">pear.agavi.org</ae:parameter>
+					<ae:parameter name="package">agavi</ae:parameter>
+				</slot>
 			</page>
 		</pages>
 	</ae:configuration>
