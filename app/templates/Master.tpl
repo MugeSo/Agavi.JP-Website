@@ -19,6 +19,11 @@
 		{$inner}
 		</div>
 		<div id="footer">
+			<div id="social-buttons">
+				<iframe src="http://www.facebook.com/plugins/like.php?app_id=123028561116892&amp;href={$ro->gen(null, [], ['relative'=>false])|rawurlencode}&amp;send=false&amp;layout=button_count&amp;width=110&amp;show_faces=true&amp;action=like&amp;colorscheme=light&amp;font&amp;height=21" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:110px; height:21px;" allowTransparency="true"></iframe>
+				<a href="http://twitter.com/share" class="twitter-share-button" data-count="horizontal" data-lang="ja">Tweet</a><script type="text/javascript" src="http://platform.twitter.com/widgets.js"></script>
+				<a href="http://b.hatena.ne.jp/entry/{$ro->gen(null,[], ['relative'=>false])}" class="hatena-bookmark-button" data-hatena-bookmark-layout="standard" title="このエントリーをはてなブックマークに追加"><img src="http://b.st-hatena.com/images/entry-button/button-only.gif" alt="このエントリーをはてなブックマークに追加" width="20" height="20" style="border: none;" /></a><script type="text/javascript" src="http://b.st-hatena.com/js/bookmark_button.js" charset="utf-8" async="async"></script>
+			</div>
 			<p id="footer-copyright">&copy;{AgaviConfig::get('core.copyright')}</p>
 		</div>
 	</body>
