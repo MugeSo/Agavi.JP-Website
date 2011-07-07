@@ -34,6 +34,12 @@
 						<!-- this changes the name of the variable with all template attributes from the default $template to $t -->
 						<ae:parameter name="var_name">t</ae:parameter>
 					</renderer>
+					<renderer name="hatena" class="HatenaSyntaxRenderer">
+						<ae:parameter name="default_extension">.txt</ae:parameter>
+						<ae:parameter name="config">
+							<ae:parameter name="sectionclass">article</ae:parameter>
+						</ae:parameter>
+					</renderer>
 				</renderers>
 				
 				<layouts default="standard">

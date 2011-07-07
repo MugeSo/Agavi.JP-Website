@@ -8,6 +8,8 @@
 		
 		<autoload name="AgaviSmartyRenderer">%core.lib_dir%/renderer/AgaviSmartyRenderer.class.php</autoload>
 		<autoload name="Smarty">%core.vendor_dir%/Smarty/libs/Smarty.class.php</autoload>
+
+		<autoload name="HatenaSyntaxRenderer">%core.lib_dir%/renderer/HatenaSyntaxRenderer.class.php</autoload>
 		
 		<autoload name="Core_PageRoutingCallback">%core.module_dir%/Core/lib/routing/PageRoutingCallback.class.php</autoload>
 	</ae:configuration>
