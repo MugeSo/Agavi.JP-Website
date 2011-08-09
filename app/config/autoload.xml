@@ -6,7 +6,6 @@
 		<autoload name="AgaviJpWebBaseModel">%core.lib_dir%/model/AgaviJpWebBaseModel.class.php</autoload>
 		<autoload name="AgaviJpWebBaseView">%core.lib_dir%/view/AgaviJpWebBaseView.class.php</autoload>
 		
-		<autoload name="AgaviSmartyRenderer">%core.lib_dir%/renderer/AgaviSmartyRenderer.class.php</autoload>
 		<autoload name="Smarty">%core.vendor_dir%/Smarty/libs/Smarty.class.php</autoload>
 
 		<autoload name="HatenaSyntaxRenderer">%core.lib_dir%/renderer/HatenaSyntaxRenderer.class.php</autoload>
